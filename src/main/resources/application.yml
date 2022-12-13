@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: iP_hone!indi4_Vaisselle
+    url: jdbc:mariadb://localhost:3306/servers
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+    show-sql: true
